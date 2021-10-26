@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> MAHESH KUMAR</title>
+    <style type="text/css">
+    div nav{
+       list-style-type: none;
+       text-shadow: aqua 30px;
+       text-align: right;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    ul li{
+      display: inline;
+      padding: 20px;
+      background-color: aqua;
+      border-radius: 15px;
+
+    }
+    
+    </style>
+    <script type="text/javascript">
+    function mahesh(){
+     var color=["#FFA500","#FF0000","#008000","#008080","#DB7093"];
+     var name=["mahesh","kumar","charitha","hyd"];
+     
+     for(i=0;i<5;i++){
+     document.getElementById("mah").innerHTML=("mahesh");
+     setTimeout(()=>{ document.getElementById("mah").style.color=color[i];},5000);
+    }
+  }
+    
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div><ul alig="inline">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="contactme.html">Contact me</a></li>
+      </ul></div>
+    </nav>
+    <h1 id="mah">PADMANABHUNI VEERA VENKATA MAHESH KUMAR</h1>
+    <p>My name is Mahesh kumar,sri vasavi engineering college,ECE-B </p>
+   <audio src=" https://docs.google.com/uc?export=download&id=16UwmohR_hMB0wLgJqM4KQ2d3Ra9Fj5I3" controls>
+     </audio>
+    <img src="mahesh.png" alt="mahesh kumar" height="250px" width="250">
+    <input type="button" onclick="mahesh()" value="click here"></input>
+    <!-- Write your solution below -->
+  </body>
+  <footer></footer>
+</html>
