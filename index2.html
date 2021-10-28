@@ -15,6 +15,7 @@
             box-shadow: 2px 2px 5px red;
             text-shadow: 1px 1px 1px ;
             font-size: 20px;
+            width: 10%;
             /* width: 100px;
             height: 100px; */
             /* text-justify: distribute; */
@@ -23,12 +24,18 @@
         .flex
         {
             display: flex;
+            height: 700px;
             /* row||row-reverse||column||column-reverse */
             flex-direction: row;
             /* flex-start||flex-end||center||space-around||space-between */
-            justify-content: space-between;
+            justify-content: space-evenly;
             /* wrap||wrap-reverse|| no-wrap */
             flex-wrap: wrap;
+            /* flex-start|| flex-end|| stretch||center */
+            align-items:center;
+            /* flex-start|| flex-end|| stretch||center || space-around||space-between */
+            align-content: stretch;
+
 
             
             
@@ -40,17 +47,40 @@
         }
         div{
             background-color:bisque;
+            
         }
     </style>
 </head>
 <body>
     <div class="flex">
-
+        
         <div>A</div>
         <div>B</div>
         <div>C</div>
-        <div>D</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi aperiam quos blanditiis saepe expedita itaque a iure quae amet delectus. Impedit dolorum ab voluptatum, autem exercitationem ea consectetur illum.</div>
         <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div></div>
+        <div>K</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt praesentium consequatur repellendus quibusdam modi illum, assumenda ex, amet minima a, vero magni ipsum ea voluptates sunt doloremque dolorem et.</div>
+        <div>M</div>
+        <div>N</div>
+        <div>O</div>
+        <div>P</div>
+        <div>Q</div>
+        <div>R</div>
+        <div>S</div>
+        <div>T</div>
+        <div>U</div>
+        <div>V</div>
+        <div>W</div>
+        <div>X</div>
+        <div>Y</div>
+        <div>Z</div>
+        
     </div>
 </body>
 </html>
