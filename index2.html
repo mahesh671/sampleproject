@@ -4,83 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>:: HOME ::</title>
-    <style>
-        .flex div
-        {
-            border: 2px solid burlywood;
-            padding: 5%;
-            margin: 2%;
-            background-color: antiquewhite;
-            box-shadow: 2px 2px 5px red;
-            text-shadow: 1px 1px 1px ;
-            font-size: 20px;
-            width: 10%;
-            /* width: 100px;
-            height: 100px; */
-            /* text-justify: distribute; */
-
-        }
-        .flex
-        {
-            display: flex;
-            height: 700px;
-            /* row||row-reverse||column||column-reverse */
-            flex-direction: row;
-            /* flex-start||flex-end||center||space-around||space-between */
-            justify-content: space-evenly;
-            /* wrap||wrap-reverse|| no-wrap */
-            flex-wrap: wrap;
-            /* flex-start|| flex-end|| stretch||center */
-            align-items:center;
-            /* flex-start|| flex-end|| stretch||center || space-around||space-between */
-            align-content: stretch;
-
-
-            
-            
-        }
-        *
-        {
-            padding: 0;
-            margin: 0;
-        }
-        div{
-            background-color:bisque;
-            
-        }
-    </style>
+    <title>GRID SYSYTEM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="flex">
-        
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi aperiam quos blanditiis saepe expedita itaque a iure quae amet delectus. Impedit dolorum ab voluptatum, autem exercitationem ea consectetur illum.</div>
-        <div>E</div>
-        <div>F</div>
-        <div>G</div>
-        <div>H</div>
-        <div>I</div>
-        <div></div>
-        <div>K</div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt praesentium consequatur repellendus quibusdam modi illum, assumenda ex, amet minima a, vero magni ipsum ea voluptates sunt doloremque dolorem et.</div>
-        <div>M</div>
-        <div>N</div>
-        <div>O</div>
-        <div>P</div>
-        <div>Q</div>
-        <div>R</div>
-        <div>S</div>
-        <div>T</div>
-        <div>U</div>
-        <div>V</div>
-        <div>W</div>
-        <div>X</div>
-        <div>Y</div>
-        <div>Z</div>
-        
+    <div class="container">
+        <div class="row bg-secondary">
+            <div class=" col-sm-2 col-md-4 col-lg-4 border">
+                <h1>division 1</h1>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-6 border">
+                <h1>division 2</h1>
+            </div>
+            <div class=" border col-sm-6 col-lg-2 col-md-4">
+                <h1>division 3</h1>
+            </div>
+        </div>
+
     </div>
+    
 </body>
 </html>
